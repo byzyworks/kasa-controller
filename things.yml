@@ -1,0 +1,43 @@
+---
+
+things:
+- host: jee5-sb-1.inet.home.arpa
+  tags: bed lamp bulb *
+  pset:
+  - brightness: 15
+  - brightness: 2
+  - brightness: 5
+  - brightness: 10
+  - brightness: 15
+  - brightness: 30
+- host: jee5-sb-2.inet.home.arpa
+  tags: corner lamp bulb *
+  pset:
+  - brightness: 30
+  - brightness: 5
+  - brightness: 10
+  - brightness: 20
+  - brightness: 30
+  - brightness: 60
+- host: jee5-sb-3.inet.home.arpa
+  tags: corner ceiling bulb *
+  pset:
+  - brightness: 75
+  - brightness: 10
+  - brightness: 25
+  - brightness: 50
+  - brightness: 75
+  - brightness: 88
+- host: jee5-sb-4.inet.home.arpa
+  tags: bed ceiling bulb *
+  pset:
+  - brightness: 75
+  - brightness: 10
+  - brightness: 25
+  - brightness: 50
+  - brightness: 75
+  - brightness: 88
+- host: jee5-sp-1.inet.home.arpa
+  tags: bed noise plug *
+- host: jee5-sp-2.inet.home.arpa
+  tags: corner noise plug *
